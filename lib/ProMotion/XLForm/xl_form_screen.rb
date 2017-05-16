@@ -13,7 +13,7 @@ module ProMotion
 
       if form_options[:on_cancel]
         on_cancel = form_options[:on_cancel]
-        title = NSLocalizedString('Cancel', nil)
+        title = NSLocalizedString('Done', nil)
         item = :done
         if on_cancel.is_a? Hash
           title = on_cancel[:title] if on_cancel[:title]
