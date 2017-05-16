@@ -13,8 +13,8 @@ module ProMotion
 
       if form_options[:on_cancel]
         on_cancel = form_options[:on_cancel]
-        title = NSLocalizedString('Done', nil)
-        item = :cancel
+        title = NSLocalizedString('Cancel', nil)
+        item = :done
         if on_cancel.is_a? Hash
           title = on_cancel[:title] if on_cancel[:title]
           item = on_cancel[:item] if on_cancel[:item]
@@ -29,7 +29,7 @@ module ProMotion
 
       if form_options[:on_save]
         on_cancel = form_options[:on_save]
-        title = NSLocalizedString('Stuff', nil)
+        title = NSLocalizedString('Save', nil)
         item = :save
         if on_cancel.is_a? Hash
           title = on_cancel[:title] if on_cancel[:title]
