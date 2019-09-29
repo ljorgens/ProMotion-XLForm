@@ -10,7 +10,7 @@ PATH
   remote: .
   specs:
     ProMotion-XLForm (0.0.18)
-      ProMotion (~> 2.0)
+      ProMotion (~> 2.8.2)
       motion-cocoapods (~> 1.10.0)
 
 GEM
