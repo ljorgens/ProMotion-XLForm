@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 Gem::Specification.new do |gem|
   gem.name          = "ProMotion-XLForm"
-  gem.version       = "0.0.18"
+  gem.version       = "0.0.19"
   gem.authors       = ["Benjamin Michotte"]
   gem.email         = ["bmichotte@gmail.com"]
   gem.description   = %q{Adds XLForm screen support to ProMotion.}
@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(spec)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "ProMotion", "~> 2.8.2"
+  gem.add_dependency "ProMotion", "~> 3.0.0"
   gem.add_dependency "motion-cocoapods", "~> 1.10.0"
   gem.add_development_dependency "motion-stump", "~> 0.3"
   gem.add_development_dependency "motion-redgreen", "~> 0.1"
